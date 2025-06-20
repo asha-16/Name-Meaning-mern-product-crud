@@ -1,36 +1,20 @@
 MERN Product Management App
 A full-stack Product Management Application built with the MERN Stack (MongoDB, Express, React, Node.js). This app allows you to create, read, update, and delete products with fields like name, price, and image URL.
 
-📁 Project Structure
-mern-product/
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── server.js
-├── frontend/
-│   └── (React app with Zustand store)
-├── .env
-├── package.json
-├── README.md
-
-
 🚀 Features
-Add, update, delete products
-View all products on homepage
-Zustand for global state management
-MongoDB as the database
-REST API with Express.js
+Add, update, delete products,
+View all products on homepage,
+Zustand for global state management,
+MongoDB as the database,
+REST API with Express.js,
 React frontend served by Node in production
 
-
 🧰 Technologies Used
-Frontend: React + Vite + Zustand
-Backend: Node.js + Express.js
-Database: MongoDB + Mongoose
-State Management: Zustand
-Env Management: dotenv
+Frontend: React + Vite + Zustand,
+Backend: Node.js + Express.js,
+Database: MongoDB + Mongoose,
+State Management: Zustand,
+Env Management: dotenv,
 Cross-platform Scripts: cross-env
 
 
@@ -66,6 +50,3 @@ DELETE	   /api/products/:id	  Delete a product
   "price": 1499,
   "image": "https://example.com/image.jpg"
 }
-
-
-
